@@ -90,7 +90,6 @@ padding: 5px 30px;
   color: white;
 }
 
-
 .colonna_logo,
 .colonna_mid,
 .colonna_dx{
@@ -134,8 +133,29 @@ padding: 5px 30px;
 .jumbotron_text h1 {
   margin-bottom: 20px;
   font-size: 350%;
-  color: #fff;
+  color: white;
 }
+
+/* Parte riguardante il main */
+
+/* Contenitore grigio */
+.box_grey{
+  padding: 30px;
+  text-align: center;
+  line-height: 40px;
+  background: #f9f9f9;
+}
+
+.box_grey h2{
+  font-size: 25px;
+}
+
+.box_grey p{
+  font-size: 18px;
+  color: grey;
+}
+
+/* Prima sezione */
 
 
 
