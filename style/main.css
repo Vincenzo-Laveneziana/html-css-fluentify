@@ -205,27 +205,37 @@ padding: 5px 30px;
 /* Seconda sezione */
 #riga2{
   margin: 0 auto;
-  width: 1000px;
-  height: 500px;
+  width: 1100px;
+  /* padding: 25px; */
+  /* height: 500px; */
   /* background: grey; */
 }
 
 .info_col2_img{
-  padding: 45px;
-  height: 450px;
+  padding: 25px;
+  height: 500px;
 }
 .info_col2{
   padding: 50px;
 }
 .info_col2 h2{
-  font-size: 25px;
-  padding: 5px 15px;
+  margin-top: 30px;
+  font-size: 30px;
+  padding: 0 35px;
+  line-height: 45px;
+  color: #696969;
 }
 
 .info_col2 p{
   font-size: 16px;
-  padding: 5px 15px;
+  padding: 15px 35px;
   color: grey;
+}
+
+.info_col2 a{
+  padding: 15px 35px;
+  font-size: 14px;
+  color: #19b3ec;
 }
 
 
