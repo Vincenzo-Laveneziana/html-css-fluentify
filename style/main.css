@@ -204,9 +204,8 @@ padding: 5px 30px;
 
 /* Seconda sezione */
 #riga2{
-  margin: 0 auto;
+  margin: 50px auto;
   width: 1100px;
-  /* padding: 25px; */
   /* height: 500px; */
   /* background: grey; */
 }
@@ -238,6 +237,43 @@ padding: 5px 30px;
   color: #19b3ec;
 }
 
+
+/* Parte riguardante il footer */
+#main_footer{
+  width: 100%;
+  line-height: 140px;
+  background: #d3d3d3;
+}
+
+.foot_col1,
+.foot_col2{
+  text-align: center;
+  display: inline-block;
+}
+.foot_col1{
+  font-size: 20px;
+}
+
+.foot_col2 h2,
+.foot_col2 select,
+.foot_col2 h3{
+  margin: 0 15px;
+}
+
+.foot_col2 h2{
+  display: inline-block;
+  font-size: 15px;
+  color: gray;
+}
+
+.foot_col2 select{
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.foot_col2 h3{
+  display: inline-block;
+  font-size: 11px;
+}
 
 
 
