@@ -214,9 +214,11 @@ padding: 5px 30px;
   padding: 25px;
   height: 500px;
 }
+
 .info_col2{
   padding: 50px;
 }
+
 .info_col2 h2{
   margin-top: 30px;
   font-size: 30px;
@@ -237,11 +239,10 @@ padding: 5px 30px;
   color: #19b3ec;
 }
 
-
 /* Parte riguardante il footer */
 #main_footer{
   width: 100%;
-  line-height: 140px;
+  line-height: 150px;
   background: #d3d3d3;
 }
 
@@ -250,6 +251,7 @@ padding: 5px 30px;
   text-align: center;
   display: inline-block;
 }
+
 .foot_col1{
   font-size: 20px;
 }
@@ -270,9 +272,27 @@ padding: 5px 30px;
   padding: 5px 10px;
   border-radius: 5px;
 }
+
 .foot_col2 h3{
   display: inline-block;
   font-size: 11px;
+}
+
+/* parte dedicata all'ìhelp */
+
+#help {
+  position: fixed;
+  bottom: 0;
+  right: 20%;
+}
+#help a {
+  display: inline-block;
+  padding: 10px;
+  background: #7bbb00;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
 }
 
 
