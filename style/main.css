@@ -1,0 +1,164 @@
+/* Generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  background: lightgrey;
+}
+
+/* utility generali */
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.contenitore{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  line-height: 23px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn_blu{
+padding: 5px 30px;
+}
+
+.btn_green{
+  background: #7bbb00;
+  border: 0;
+  padding: 5px 30px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+
+/* Parte riguardante l'header */
+
+#main_header{
+  height: 560px;
+  background: #0c3259;
+  background-image: url('../img/background-header.png');
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 115% 115%;
+}
+
+.background_main_header{
+  margin: 0 auto;
+  height: 500px;
+  width: 1200px;
+}
+
+.header_menu{
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.header_menu li {
+  display: inline-block;
+  list-style: none;
+  color: white;
+}
+
+.header_menu a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+
+.colonna_logo,
+.colonna_mid,
+.colonna_dx{
+  float: left;
+}
+
+.colonna_logo{
+  width: 15%;
+}
+
+.colonna_logo img{
+  margin-top: 16px;
+}
+
+.colonna_mid{
+  width: 45%;
+}
+
+.colonna_dx{
+  text-align: right;
+ width: 40%;
+}
+
+.spazio_menu li{
+  padding: 0 10px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  height: 500px;
+}
+
+.jumbotron_text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.jumbotron_text h1 {
+  margin-bottom: 50px;
+  font-size: 350%;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
