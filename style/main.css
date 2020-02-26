@@ -44,6 +44,12 @@ padding: 5px 30px;
   padding: 5px 30px;
 }
 
+.btn_green_2{
+  background: #7bbb00;
+  border: 0;
+  padding: 20px 25px;
+}
+
 .w-50 {
   width: 50%;
 }
@@ -54,16 +60,17 @@ padding: 5px 30px;
 #main_header{
   height: 560px;
   background: #0c3259;
-  background-image: url('../img/background-header.png');
-  background-size: 1000px;
-  background-repeat: no-repeat;
-  background-position: 115% 115%;
+  width: 100%
 }
 
 .background_main_header{
   margin: 0 auto;
-  height: 500px;
-  width: 1200px;
+  height: 560px;
+  width: 1400px;
+  background-image: url('../img/background-header.png');
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
 
 .header_menu{
@@ -119,13 +126,13 @@ padding: 5px 30px;
 
 .jumbotron_text {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 0;
   transform: translateY(-50%);
 }
 
 .jumbotron_text h1 {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 350%;
   color: #fff;
 }
